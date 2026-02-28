@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Database 
+
+*.mysql
+
+# envirenment files
+.env
+.venv
+
+# temporary files
+*.tmp
+*.bak

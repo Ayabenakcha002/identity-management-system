@@ -64,6 +64,7 @@ def generate_unique_id(person_type, person_instance=None):
     # -------------------------------------------------------
     return f"{prefix}{current_year}{new_number:05d}"
 
+
 =======
 from datetime import datetime
 from .models import Person
@@ -130,4 +131,3 @@ def generate_unique_id(person_type, person_instance=None):
     # -------------------------------------------------------
     return f"{prefix}{current_year}{new_number:05d}"
 
->>>>>>> 95cb936 (Add frontend-identity folder)

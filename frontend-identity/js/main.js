@@ -194,15 +194,16 @@ function loadTypeFields(type) {
                 <label for="entry-year" class="form-label">Entry Year</label>
                 <input type="number" class="form-control" id="entry-year" required min="2000" max="2100">
             </div>
-            <div class="col-md-6 mb-3">
-                <label for="student-status" class="form-label">Student Status</label>
-                <select class="form-select" id="student-status" required>
+           <div class="col-md-6 mb-3">
+              <label for="student-status" class="form-label">Student Status</label>
+               <select class="form-select" id="student-status" required>
+                 <option value="pending" selected>Pending</option>
                     <option value="active">Active</option>
                     <option value="suspended">Suspended</option>
-                    <option value="graduated">Graduated</option>
-                    <option value="expelled">Expelled</option>
-                </select>
-            </div>
+                     <option value="graduated">Graduated</option>
+                     <option value="expelled">Expelled</option>
+                 </select>
+        </div>
         </div>
         <div class="row">
             <div class="col-md-6 mb-3">
